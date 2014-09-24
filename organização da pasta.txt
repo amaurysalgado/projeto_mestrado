@@ -1,0 +1,18 @@
+Esta pasata está organizada da seguinte forma:
+
+	- para cada capitulo da tese existe uma pasta refenrente a esses capítulo, e em cada pasta estão guardados todos os documentos utilizados por ele.
+
+	- Existe uma pasta separada para capas, nela se encontram o/os arquivos de capa, contra-capa, folha de rosto e folha de aprovação.
+
+	- Existe uma pasta separada chamada introdutórios que possue os arquivos de abreveaturas, agradecimentos, dedicatória e mensagem, caso todas forem usadas.
+
+	- O arquivo com as referências também estão em uma pasta separada assim como os Apêndices, caso existam.
+
+	- Todas as figuras utilizadas por um capítulo estão localizadas em uma pasta denominada "figuras" localizadas dentro do diretório do referido capítulo, se houverem figuras repetidas em capítulos diferentes, existirá uma cópia específica para capítulo em sua respctiva pasta "figura".
+
+	- No diretório raiz exite o arquivo "Tese_Amaury.tex", esse arquivo é o 'main' de toda a estrutura da tese, nela são encontradas os 'usepackages' utilizados, é onde estão localizados os comandos para a geração do Sumário, das listas de figuras e listas de tabelas, caso existam várias, e também onde são colocados os 'inputs' e 'includes', comandos que "chamam" os arquivos '.tex' que estão nos outros diretórios. Caso haja uma lista de apreveaturas ela será feita em um aquivo separado e posto em uma pasta específica para ele, apenas para manter a estrutura de organização.
+
+	- É possível também que no diretório raiz da tese exista um arquivo chamdo "macros.tex" nele estão contidos alguns comandos que são utilizados durante a criação do texto a fim de facilidar a elaboração do mesmo, possui basicamente comandos de "\newcommand".
+
+
+OBS: inicialamente é utilizado um template fornecido pela DAC para a elaboração de teses de dissertações, porém nem tudo foi utilizado, 

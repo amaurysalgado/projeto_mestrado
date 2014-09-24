@@ -1,0 +1,102 @@
+\documentclass[12pt,oneside,final]{book}
+
+\usepackage[utf8]{inputenc} % define o papadrão UTF-8 para a codificação de textos
+\usepackage[brazilian]{babel} % habilita os caracteres especiais da lingua portuguesa
+
+\usepackage{setspace}
+\usepackage{indentfirst} % identa o primeiro parágrafo
+\usepackage{ae} 
+%\usepackage{harvard}
+\usepackage{natbib}
+\usepackage{amssymb,fancyhdr,fancybox,epsfig,psfrag,amsmath,tabularx}
+\usepackage[paperwidth=8.5in,paperheight=11in,hmargin={25mm,20mm},vmargin={20mm,20mm}]{geometry} %tamanho letter
+
+\usepackage{array}
+\usepackage{amsmath}
+
+
+%============================  =============== Headers =========================================
+
+\renewcommand{\chaptermark}[1]{\markboth{\chaptername\ \thechapter. \ #1}{ }}
+\renewcommand{\sectionmark}[1]{\markright{\thesection. \ #1}}
+\fancyhead{}
+\fancyfoot{}
+%\fancyhead[LE,RO]{\thepage}
+%\fancyhead[RE]{\nouppercase{\leftmark}}
+\fancyhead[LO]{\nouppercase{\rightmark}}
+%==============================================================================================
+
+
+%\input{macros}
+
+\begin{document}
+
+\pagenumbering{roman}
+\pagestyle{plain}
+
+%Tese em português
+\input{./capa/capa}
+%Tese em português e inglês
+%\input{capaPortIngles}
+
+
+%\include{./introdutorios/dedicatoria}
+
+\include{./introdutorios/agradecimento}
+
+%\include{./introdutorios/epigrafe}
+
+
+%\baselineskip 1.1 \baselineskip
+
+\include{./introdutorios/resumo}
+
+
+
+%=== lista de tabelas e figuras ===
+\listoffigures
+\newpage
+
+
+%\listoftables
+%\newpage
+
+\include{./introdutorios/siglas}
+
+%=== acrônimos, símbolos e notações ===
+%\input{acro_notacao.tex}
+
+%=== sumário ===
+\tableofcontents
+
+
+
+
+%Agora muda para o estilo fancy
+\pagestyle{fancy}
+
+\onehalfspacing
+
+%\markboth{Introdu\c{c}\~{a}o Geral}{Introdu\c{c}\~{a}o Geral} 
+\include{./introducao/introducao}
+
+\include{./cap1/Estruturas_Planares}
+%\include{./cap2/TDR}
+%
+%\include{cap2}
+
+%\include{resultados}
+%
+%
+%\include{conclusao}
+
+
+%=============================== Bibliografia ===============================================
+\addcontentsline{toc}{chapter}{Bibliografia}
+\renewcommand{\bibname}{Bibliografia}
+\markboth{Bibliografia}{Bibliografia}
+
+\bibliographystyle{plainnat}
+\bibliography{./Referencias/ref}
+
+\end{document}

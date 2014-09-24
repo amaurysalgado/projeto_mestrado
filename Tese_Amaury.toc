@@ -1,0 +1,9 @@
+\select@language {brazilian}
+\contentsline {chapter}{Introdu\IeC {\c c}\IeC {\~a}o}{1}
+\contentsline {chapter}{\numberline {1}Estruturas Planares de Transmiss\IeC {\~a}o}{3}
+\contentsline {section}{\numberline {1.1}Tipos de Estruturas Planares}{4}
+\contentsline {subsection}{\numberline {1.1.1}Coplanar Waveguides (CPW)}{4}
+\contentsline {subsection}{\numberline {1.1.2}Microstrip}{7}
+\contentsline {section}{\numberline {1.2}Aplica\IeC {\c c}\IeC {\~o}es de Estruturas Planares}{9}
+\contentsline {section}{\numberline {1.3}Resumo do Cap\IeC {\'\i }tulo}{9}
+\contentsline {chapter}{Bibliografia}{10}

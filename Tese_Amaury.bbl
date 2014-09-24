@@ -1,0 +1,89 @@
+\begin{thebibliography}{13}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Bhartia and Rao(1990)]{Bhartia}
+P.~Bhartia and K.~V.~S. Rao.
+\newblock \emph{Millimeter-Wave Microstrip ans Printed Circuit Antennas}.
+\newblock Artech House, 1990.
+
+\bibitem[Byrd and Friedman(1971)]{Byrd}
+Paul~F. Byrd and Morris~D. Friedman.
+\newblock \emph{Handbook of Elliptic Integrals for Engineers and Scientists}.
+\newblock Spinger, 1971.
+
+\bibitem[Fletcher(1948)]{Alan}
+Alan Fletcher.
+\newblock \emph{Guide to Tables of Elliptic Functions}.
+\newblock MTAC, 1948.
+
+\bibitem[Ghione and Naldi(1984)]{Ghione}
+G.~Ghione and C.~Naldi.
+\newblock Analytical formulas for coplanar lines in hybrid and monolithic mics.
+\newblock \emph{Electronics Letters}, 20\penalty0 (4):\penalty0 179--181,
+  February 1984.
+\newblock ISSN 0013-5194.
+\newblock \doi{10.1049/el:19840120}.
+
+\bibitem[Grieg and Engelmann(1952)]{Grieg}
+D.D. Grieg and H.~F. Engelmann.
+\newblock Microstrip-a new transmission technique for the klilomegacycle range.
+\newblock \emph{Proceedings of the IRE}, 40\penalty0 (12):\penalty0 1644--1650,
+  Dec 1952.
+\newblock ISSN 0096-8390.
+\newblock \doi{10.1109/JRPROC.1952.274144}.
+
+\bibitem[Hoffmann(1987)]{Hoffmann}
+Reinmut~k. Hoffmann.
+\newblock \emph{Handbook of Microwave Integrated Circuits}.
+\newblock Artech House, 1987.
+
+\bibitem[Jahnke(1945)]{Eugene}
+Eugene Jahnke.
+\newblock \emph{Table of functions}.
+\newblock Dover, 1945.
+
+\bibitem[Maloratsky(2000)]{Leo}
+Leo~G. Maloratsky.
+\newblock Reviewing the basics of microstrip lines.
+\newblock \emph{MICROWAVES \& RF}, March 2000.
+\newblock URL
+  \url{http://paginas.fe.up.pt/~hmiranda/etele/microstrip\underline{\hspace{.1in}}basics.pdf}.
+
+\bibitem[Nguyen(2001)]{Nguyen}
+Cam Nguyen.
+\newblock \emph{Analysis methods for RF, microwave, and millimeter-wave planar
+  transmission line structures}, chapter~1, pages 1--11.
+\newblock John Wiley \& Sons, Inc., 2001.
+\newblock ISBN 9780471200673.
+\newblock URL \url{http://dx.doi.org/10.1002/0471200670}.
+
+\bibitem[Patel(2013)]{Patel}
+B.~D. Patel.
+\newblock Microstrip patch antenna - a historical perspective of the
+  development.
+\newblock \emph{Atlantis Press}, 2013.
+
+\bibitem[Rohrdantz et~al.(2014)Rohrdantz, Schmidt, and Jacob]{Benjamin}
+Benjamin Rohrdantz, Vincent Schmidt, and Arne~F. Jacob.
+\newblock Microstrip ring ressonator based frequency reconfigurable band-pass
+  filters at k-band.
+\newblock \emph{20th International Conference on Microwave, Radar and Wireless
+  Communications}, 2014.
+
+\bibitem[Simons(2001)]{Rainee}
+Rainee~N. Simons.
+\newblock \emph{Coplanar Waveguides, Circuits, Components and Systems}.
+\newblock John Wiley \& Sons, Inc., 2001.
+
+\bibitem[Webber et~al.(2014)Webber, Barbin, and Kretly]{Mauricio}
+Maurício Webber, Ernesto Barbin, and Luiz Kretly.
+\newblock Practical guidelines for design and implementations of microwave
+  absorber using fss-frequenc selective surfaces.
+\newblock \emph{20th International Conference on Microwave, Radar and Wireless
+  Communications}, 2014.
+
+\end{thebibliography}
